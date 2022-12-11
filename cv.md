@@ -15,6 +15,7 @@
 ### ABOUT ME
 
  #### *I was a computer science and programming enthusiast since the year 1991 when I read a book about the BASIC programming language for the first time. I've tried many courses and learned some concepts and algorithms, but unfortunately didn't finish one mostly for the decreesing motivation due impossible to realize my new knowlege. Nevetheless easch time I learned more and my previous experience help me to get in faster. Now I put all my efforts into achieving my goal of becoming a Front-End Developer.*
+
 -----
 
 ### SKILLS
@@ -28,6 +29,7 @@
 - *Git, GitHub*
 - *OS Windows*
 - *Notepad ++, VSCode*
+
 -----
 
 ### CODE SAMPLES
@@ -69,6 +71,7 @@ while dice_index < dice_qty + 1:
 - https://www.freecodecamp.org/retterhalm
 - https://www.edx.org/course/introduction-computer-science-harvardx-cs50x
 - https://Youtube.com
+
 -----
 
 ### LANGUAGES
@@ -77,6 +80,7 @@ while dice_index < dice_qty + 1:
 - *Polish (B1)*
 - *Serbian (A1)*
 - *Spanish (Basics)*
+
 -----
 
 
