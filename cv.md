@@ -14,7 +14,8 @@
 
 ### ABOUT ME
 -----
-*I was a computer science and programming enthusiast since the year 1991 when I read a book about the BASIC programming language for the first time. I've tried many courses and learned some concepts and algorithms, but unfortunately didn't finish one. Now I put all my efforts into achieving my goal of becoming a Front-End Developer.*
+*I was a computer science and programming enthusiast since the year 1991 when I read a book about the BASIC programming language for the first time. I've tried many courses and learned some concepts and algorithms, but unfortunately didn't finish one mostly for the decreesing motivation due impossible to realize my new knowlege. Nevetheless easch time I learned more and my previous experience help me to get in faster. Now I put all my efforts into achieving my goal of becoming a Front-End Developer.*
+
 
 
 
