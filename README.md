@@ -1,1 +1,1 @@
-https://github.com/Retterhalm/rsschool-cv/cv
+https://Retterhalm.github.io/rsschool-cv/cv
