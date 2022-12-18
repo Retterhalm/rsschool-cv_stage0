@@ -1,0 +1,79 @@
+body {
+    background-color: #ff7b25;
+}
+
+.name-tag {
+    margin-top: 50px;
+    width: auto;
+    height: 150px;
+    background-color:#6b5b95;
+    border-radius: 100px;
+}
+.cv-photo {
+    margin-top: -170px;
+    margin-left: 100px;
+    border-radius: 50%;
+}
+.name{
+    padding-top: 40px;
+    padding-right: 50px;
+    color: mintcream;
+    font: 500 3em Tahoma, sans-serif;
+    text-align: right;
+}
+
+section, aside{
+    font: bold italic 1.2em Tahoma, sans-serif;
+    width: 100%;
+    text-align: center;
+    color: mintcream;
+    border-top: 2px solid #6b5b95;
+    padding-bottom: 20px;
+}
+
+.contacts p{
+    font: bold italic 1.2em Tahoma, sans-serif;
+    color: mintcream;
+}
+
+.about-me {
+
+    text-align: center;
+    display: inline-block;
+}
+
+.about-me p {
+    width: 100%;
+    margin: auto;
+}
+
+h2{
+    color:  #180449
+}
+
+ul{
+    display: inline-block;
+}
+
+.code-samples pre{
+    margin: auto;
+    display: inline-block;
+}
+
+.code {
+    text-align: left;
+}
+
+footer{
+    font: bold italic 1em Tahoma, sans-serif;
+    width: 100%;
+    text-align: center;
+    color: mintcream;
+    border-top: 2px solid #6b5b95;
+    padding-bottom: 20px;
+}
+
+.rs-logo{
+    padding-top:20px;
+    width: 100px;
+}

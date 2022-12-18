@@ -2,13 +2,13 @@
  -----
 ### CONTACTS
 
-***+381 611 72 82 03*** 
+***+381 611 72 82 03***
 
 ***kuznetsovd@hotmail.com***
 
 ***https://github.com/Retterhalm***
 
-***Discord: @retterhalm*** 
+***Discord: @retterhalm***
 
 -----
 
@@ -24,7 +24,7 @@
 - *CSS (In progress)*
 - *Java Script (In progress)*
 - *Python (Basic level)*
-- *Java (Basic level)* 
+- *Java (Basic level)*
 - *C (basic Level)*
 - *Git, GitHub*
 - *OS Windows*
@@ -40,7 +40,7 @@
 import random
 dice_qty = int(input('How many dices do you want to roll ?')) # getting amount of dices
 dices= {}
-for i in range (1, (dice_qty  + 1)):                          # finding out how many side each dice is  
+for i in range (1, (dice_qty  + 1)):                          # finding out how many side each dice is
     if i == 1:
         message = 'How many sides is your first dice ?'
     elif i == dice_qty:
@@ -49,15 +49,15 @@ for i in range (1, (dice_qty  + 1)):                          # finding out how 
         message = 'How many sides is your next dice ?'
     sides = int(input(message))
     dices[i] = sides                                          # forming a dictionary, where key is an index number of a dice and a value is a number of sides
-dice_index = 1         
-while dice_index < dice_qty + 1:  
+dice_index = 1
+while dice_index < dice_qty + 1:
      roll = random.randint(1, dices[dice_index])
      print(' Your  {} dice ( {}  sides ) has rolled {} !'.format(dice_index, dices[dice_index], roll))# printing out results
      dice_index += 1
-```  
+```
 -----
 
-### WORK EXPERIENCE  
+### WORK EXPERIENCE
 
 
 ##### **SIMPLE BATTLE SIMULATOR**
@@ -86,4 +86,4 @@ while dice_index < dice_qty + 1:
 
 
 
- 
+
