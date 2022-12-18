@@ -1,10 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>DENIS KUZNETSOV CV</title>
-        <meta charset="UTF=8">
-        <link rel="stylesheet" href="CSS\style.css">
-    </head>
-    <body>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Denis Kuznetsov's CV</title>
+</head>
+<body>
+        <header>
+            <div class="name-tag">
+                <h1 class="name">Denis Kuznetsov</h1>
+                <span><img class="cv-photo" src="./img/cv-photo.jpg" alt="Denis Kuznetsov's photo" width="200"></span>
+            </div>
+        </header>
+
+        <aside class="navigation">
+            <nav>
+                <ul>
+                    <li><a href="#contacts">CONTACTS</a></li>
+                    <li><a href="#about-me">ABOUT ME</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#code-samples">CODE SAMPLES</a></li>
+                    <li><a href="#work-experience">WORK EXPERIENCE</a></li>
+                    <li><a href="#education">EDUCATION</a></li>
+                    <li><a href="#languages">LANGUAGES</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section id="contacts" class="contacts">
+           <h2>Contacts</h2>
+               <p> Tel: +381 611 72 82 03</p>
+               <p>Email: kuznetsovd@hotmail.com</p>
+               <p>Github: https://github.com/Retterhalm</p>
+               <p>Discord: @retterhalm</p>
+        </section>
+
+        <section id="about-me" class="about-me">
+            <h2>About Me</h2>
+            <p>I was a computer science and programming enthusiast since the year 1991 when I read a book about the BASIC programming language.<br>
+               I've tried many courses and learned some concepts and algorithms, but unfortunately didn't finish one mostly for the decreesing motivation due impossible to realize my new knowlege.<br>
+               Nevetheless, each time I learned more and my previous experience help me to get in faster.
+               Now I put all my efforts into achieving my goal of becoming a Front-End Developer.</p>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+                <ul>
+                    <li>HTML (In progress)</li>
+                    <li>CSS (In progress)</li>
+                    <li>Java Script (In progress)</li>
+                    <li>Python (Basic level)</li>
+                    <li>Java (Basic level)</li>
+                    <li>C (basic Level)</li>
+                    <li>Git, GitHub</li>
+                    <li>OS Windows</li>
+                    <li>Notepad ++, VSCode</li>
+                </ul>
+        </section>
+
+        <section id="code-samples" class="code-samples">
+            <h2>Code Samples</h2>
+            <h3>A dice roller(Python)</h3>
+            <div >
+                <pre class="code">
+                    <code >
+                        import random
+                        dice_qty = int(input('How many dices do you want to roll ?')) # getting amount of dices
+                        dices= {}
+                        for i in range (1, (dice_qty  + 1)):            # finding out how many side each dice is
+                            if i == 1:
+                                message = 'How many sides is your first dice ?'
+                            elif i == dice_qty:
+                                message = 'How many sides is your last dice ?'
+                            else:
+                                message = 'How many sides is your next dice ?'
+                            sides = int(input(message))
+                            dices[i] = sides          # forming a dictionary, where key is an index number of a dice and a value is a number of sides
+                        dice_index = 1
+                        while dice_index < dice_qty + 1:
+                            roll = random.randint(1, dices[dice_index])
+                            print(' Your  {} dice ( {}  sides ) has rolled {} !'.format(dice_index, dices[dice_index], roll))# printing out results
+                            dice_index += 1
+                    </code>
+                </pre>
+            </div>
+        </section>
+
+        <section id="work-experience" class="work-experience">
+            <h2>Work Experience</h2>
+            <a href="https://github.com/Retterhalm/Simple_Battle_Simulator"><h3>Simple Battle Simulator(Python)</h3></a>
+        </section>
+        <section id="education" class="education">
+            <h2>Education</h2>
+            <ul>
+                <li><a href="https://app.rs.school/">Rolling Scopes School(JS-FE-Preschool-2022Q4)</a></li>
+                <li><a href="https://www.sololearn.com/Profile/3666766#">My profile at SoloLearn.com</a></li>
+                <li><a href="https://stepik.org/users/48925680">My profile at Stepik.org</a></li>
+                <li><a href="https://www.freecodecamp.org/retterhalm">My profile at freeCodeCamp.org</a></li>
+            </ul>
+        </section>
+
+        <section id="languages" class="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English (B2)</li>
+                <li>Polish (B1)</li>
+                <li>Serbian (A1)</li>
+                <li>Spanish (Basics)</li>
+            </ul>
+        </section>
+
+        <footer>
+            <div>
+                <span><a href="https://github.com/Retterhalm">Retterhalm</a></span>
+                <span><a href="https://rs.school/js/"><img class="rs-logo" src="./img/rs-school-logo.jpeg" alt="RS School Logo"></a></span>
+                <span>2022</span>
+            </div>
+        </footer>
+
+</body>
 </html>
