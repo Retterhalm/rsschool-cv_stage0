@@ -22,7 +22,15 @@ body {
     text-align: right;
 }
 
-section, aside{
+aside{
+    font: bold italic 1.2em Tahoma, sans-serif;
+    width: 100%;
+    text-align: center;
+    color: mintcream;
+    padding-bottom: 20px;
+}
+
+section {
     font: bold italic 1.2em Tahoma, sans-serif;
     width: 100%;
     text-align: center;
@@ -30,6 +38,7 @@ section, aside{
     border-top: 2px solid #6b5b95;
     padding-bottom: 20px;
 }
+
 
 .contacts p{
     font: bold italic 1.2em Tahoma, sans-serif;
